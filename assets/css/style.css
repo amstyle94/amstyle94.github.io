@@ -3,17 +3,29 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(255, 255, 255);
   position:relative;
-  background-image: url("assets/img/favicon-32x32.png");
+  
 
 }
-.div
+.cover{
+  background-color: rgba(252, 252, 252, 0.966);
+  padding-block: 258px;
+  padding-inline: 50px;
+  background-image: url("../img/home.jpg");
+  background-repeat: no-repeat;
+background-size: cover;
+background-position:  center center ;
+}
+h1,h2,p {
+  color: rgb(255, 255, 255);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 a{
-  color: rgb(218, 165 32);
+   color: rgb(218,165,32);
 }
 
 .heder {
-  background-color: rgb(151, 25, 25);
+  background-color: rgb(12, 29, 37);
   box-shadow: 1px 1px 4px 0px rgba(0,0,0,.1);
   position: fixed;
   width: 100%;
@@ -25,7 +37,7 @@ a{
 padding: 0;
 list-style: none;
 overflow: hidden;
-background-color: rgb(151, 25, 25);
+background-color: rgb(12,29,37);
 
 }
 
@@ -36,8 +48,9 @@ border right: 1px solid red;
 text-decoration: none;
 }
 
+
 .heder ul a:hover{
-  background-color: rgb(235, 93, 93);
+  background-color: rgba(26, 87, 116, 0.692);
   
 }
 
