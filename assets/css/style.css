@@ -8,7 +8,7 @@ body{
 }
 .cover{
   background-color: rgba(252, 252, 252, 0.966);
-  padding-block: 258px;
+  padding-block: 256px;
   padding-inline: 50px;
   background-image: url("../img/home.jpg");
   background-repeat: no-repeat;
