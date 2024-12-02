@@ -1,0 +1,134 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 255, 255);
+  position:relative;
+  
+
+}
+.cover{
+  background-color: rgba(252, 252, 252, 0.966);
+  padding-block: 256px;
+  padding-inline: 50px;
+  background-image: url("../img/home.jpg");
+  background-repeat: no-repeat;
+background-size: cover;
+background-position:  center center ;
+}
+h1,h2,p {
+  color: rgb(255, 255, 255);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+   color: rgb(218,165,32);
+}
+
+.heder {
+  background-color: rgb(12, 29, 37);
+  box-shadow: 1px 1px 4px 0px rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.heder ul{
+ margin: 0;
+padding: 0;
+list-style: none;
+overflow: hidden;
+background-color: rgb(12,29,37);
+
+}
+
+.heder ul a{
+  display: block;
+  padding: 20px;
+border right: 1px solid red;
+text-decoration: none;
+}
+
+
+.heder ul a:hover{
+  background-color: rgba(26, 87, 116, 0.692);
+  
+}
+
+.heder .logo{
+  float: left;
+  font-size: 25px;
+  padding: 10px 20px;
+}
+
+.heder .menu  {
+  clear: both;
+  max-height: 0;
+  transition: max-height 1.2s ease-out ;
+}
+
+.heder .menu-icon{
+  border:1px solid rgb(218, 165, 32) ;
+  padding: 28px 20px;
+  position: relative;
+  float: right;
+  cursor: pointer;
+
+}
+.heder .menu-icon .nav-icon{
+  background-color: rgb(218, 165, 32);
+  display: block;
+  width: 18px;
+  height: 2px;
+  position: relative;
+  transition: background-color .2s ease-out;
+
+}
+
+.heder .menu-icon .nav-icon::before,
+.heder .menu-icon .nav-icon::after
+{
+background-color: rgb(218, 165, 32);
+content: "";
+display: block;
+height: 100%;
+width: 100%;
+transition: all .2s ease-out;
+position:absolute;
+}
+.heder .menu-icon .nav-icon::before {
+  top: 5px;
+}
+.heder .menu-icon .nav-icon::after {
+  top: -5px;
+}
+.heder .menu-btn {
+ display: none
+}
+.heder .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+.heder .menu-btn:checked ~ .menu-icon .nav-icon{
+  background-color: transparent;
+}
+.heder .menu-btn:checked ~ .menu-icon .nav-icon::before{
+  transform: rotate(-45deg);
+  top:0
+}
+.heder .menu-btn:checked ~ .menu-icon .nav-icon::after{
+  transform: rotate(45deg);
+  top:0
+}
+
+@media(min-width :48em) {
+  .heder li{
+    float: left;
+  }
+  .heder li a{
+    padding:20px 30px;
+  }
+  .heder .menu{
+    clear: none;
+    float: right;
+    max-height: 0;
+  }
+  }
