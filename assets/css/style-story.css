@@ -7,19 +7,24 @@ body{
 
 }
 .cover{
-  background-color: rgba(252, 252, 252, 0.966);
-  padding-block: 256px;
-  padding-inline: 50px;
-  background-image: url("../img/home.jpg");
+  background-color: rgba(0, 76, 121, 0.966);
+  padding-block: 120px;
+  padding-inline: 30px;
+  background-image: url("../img/home.jg");
   background-repeat: no-repeat;
 background-size: cover;
 background-position:  center center ;
 }
-h1,h2,p {
-  color: rgb(150, 42, 42);
+h1,h2{
+  color: rgb(218,165,32);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+h3{
+  color:rgb(255, 255, 255)
+}
+strong{
+  color: rgb(107, 255, 243);
+}
 a{
    color: rgb(218,165,32);
 }
