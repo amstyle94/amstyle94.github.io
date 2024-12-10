@@ -3,31 +3,22 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(255, 255, 255);
   position:relative;
-  
 
 }
-.col1{
-  position: relative;
-}
 .cover{
-  background-color: rgba(0, 76, 121, 0.966);
-  padding-block: 80px;
-  padding-inline: 10px;
-  background-image: url("../img/curr.jpg");
+  background-color: rgba(252, 252, 252, 0.966);
+  padding-block: 256px;
+  padding-inline: 50px;
+  background-image: url("../img/home.jpg");
   background-repeat: no-repeat;
 background-size: cover;
-background-position:  center center ;
+background-position:center center;
 }
-h1,h2{
-  color: rgb(218,165,32);
+h1,h2,p {
+  color: rgb(255, 255, 255);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-h3{
-  color:rgb(255, 255, 255)
-}
-strong{
-  color: rgb(218,165,32);
-}
+
 a{
    color: rgb(218,165,32);
 }

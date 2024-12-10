@@ -1,25 +1,45 @@
 body{
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   background-color: rgb(255, 255, 255);
   position:relative;
   
 
 }
+.col1{
+  position: relative;
+}
+ul.a {
+  list-style-type:square;
+   color: rgb(12,29, 37);
+  
+}
 .cover{
-  background-color: rgba(252, 252, 252, 0.966);
-  padding-block: 256px;
-  padding-inline: 50px;
-  background-image: url("../img/home.jpg");
+  background-color: rgba(255,253,208);
+  padding-block: 80px;
+  padding-inline: 10px;
   background-repeat: no-repeat;
 background-size: cover;
 background-position:  center center ;
 }
-h1,h2,p {
-  color: rgb(255, 255, 255);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+h1,h2{
+  color: rgb(218,165,32);
+  font-family: 'Times New Roman', Times, serif;
 }
+h3{
+  color:rgb(218, 165, 32);
+  font-family:'Times New Roman', Times, serif;
+}
+.testostoria{color:rgb(12, 29, 37);
+  font-family:'Times New Roman', Times, serif;
 
+}
+strong{
+  color: rgb(218,165,32);
+}
+ul {
+
+}
 a{
    color: rgb(218,165,32);
 }
@@ -47,7 +67,10 @@ background-color: rgb(12,29,37);
 border right: 1px solid red;
 text-decoration: none;
 }
+.heder competenze ul {
+  background-color: aqua;
 
+}
 
 .heder ul a:hover{
   background-color: rgba(26, 87, 116, 0.692);
