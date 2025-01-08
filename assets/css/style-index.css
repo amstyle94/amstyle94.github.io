@@ -16,7 +16,7 @@ background-position:center center;
 }
 h1,h2,p {
   color: rgb(255, 255, 255);
-  font-family: fantasy ;
+  font-family: fantasy  ;
   size: 10px;
  -webkit-text-stroke-width: 1px;
  -webkit-text-stroke-color: rgb(12, 29, 37) ;
