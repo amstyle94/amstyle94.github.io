@@ -30,6 +30,15 @@ h3{
   color:rgb(218, 165, 32);
   font-family:'Times New Roman', Times, serif;
 }
+.daticontatti{
+  border-top: 2px solid rgb(218, 165,32); 
+	text-align:center;
+	padding:30px 10px;
+	line-height: 1.6em;
+	font-size:0.8em;
+
+	color:rgb(218, 165, 32);
+
 .testostoria{color:rgb(12, 29, 37);
   font-family:'Times New Roman', Times, serif;
 
