@@ -21,6 +21,7 @@ ul.a {
   background-repeat: no-repeat;
 background-size: cover;
 background-position:  center center ;
+text-align: center;
 }
 h1,h2{
   color: rgb(218,165,32);
