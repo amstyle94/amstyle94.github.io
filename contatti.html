@@ -20,21 +20,21 @@
 
   <link rel="icon" href="assets/img/favicon-16x16.png" sizes="16x16" type="image/png">
   
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="dist/css/style1.css">
 
 </head>
 
 
   <body>
     <heder class="heder">
-     <a href="index.html" class="logo"><img src="assets/img/firmaam.png" width="250" height="30"></a>
+     <a href="il-mio-sito-internet/index.html" class="logo"><img src="il-mio-sito-internet/assets/img/firmaam.png" width="250" height="30"></a>
     <input class="menu-btn" id="menu-btn" type="checkbox">
     <label for="menu-btn" class="menu-icon">
     <span class="nav-icon"></span>
     </label>
     <ul class="menu">
-      <li><a href="story.html">Storia</li></a>
-      <li><a href="cv.html">Curriculum Vitae</li></a>
+      <li><a href="il-mio-sito-internet/story.html">Storia</li></a>
+      <li><a href="il-mio-sito-internet/cv.html">Curriculum Vitae</li></a>
       <li><a href="contatti.html">Contacts</li></a>
     </ul>
     
@@ -43,21 +43,18 @@
     <div class="cover" > 
   <h3>ISCRIVITI PER ESSERE SEMPRE AGGIORNATO SULLE NEWS
   </h3>
+  
   <form action="salva-dati.php" method="post">
+    <div class ="daticontatti">
     <fieldset>
-      <legend>Dati Anagrafici</legend>
-      <label for="nome">Nome</label>
+      <label for="nome"><h3>Nome</h3></label>
    <input type="text"name="nome" placeholder="es.Mario" required> <br>
-   <label for="cognome">Cognome</label>
+   <label for="cognome"><h3>Cognome</h3></label>
    <input type="text" name="cognome" placeholder="es.Rossi" required> <br>
-   <label for="codicefiscale">Codice Fiscale</label>
+   <label for="codicefiscale"><h3>Codice Fiscale</h3></label>
    <input type="text" name="codicefiscale" maxlength="16" placeholder="inserire codice fiscale" required><br>
-   <div>
-
-    <input type="radio"name="genere" value="m">Maschio
-    <input type="radio"name="genere" value="f">Femmina
-    </div>
-   <label for="fasciaetà">Fascia di Età</label>
+   
+   <label for="fasciaetà"><h3>Fascia di Età</h3></label>
    <select name="fasciaetà">
     <option value="0-18">0-18</option>
     <option value="18-40">18-40</option>
@@ -65,27 +62,27 @@
     <option value="over65">over 65</option><br>
      </select><br>
 
-    <label form="email">E-mail</label>
+    <label form="email"><h3>E-mail</h3></label>
     <input type="email">
        </fieldset>
 
 <input type="submit" value="INVIA">
 <input type="reset" value="RESET">
 
-      </form>
-</div>
-<footer>
-  Questo sito è stato realizzato da Antonio Monaco <br>
-  per info e contatti:<br>
+  </form></div></div>
+  <footer>
+    Questo sito è stato realizzato da: Antonio Monaco <br>
+    per info e contatti:<br>
+    
+    <a target="_blank" href="https://www.facebook.com/permalink.php/?story_fbid=111796483583291&id=109350463827893"><img width="30" src="il-mio-sito-internet/assets/img/fb.png"  title="facebook" alt="Facebook icon"></a>
+    <a target="_blank" href="https://www.instagram.com/"><img width="50" src="il-mio-sito-internet/assets/img/ista.webp" title="Instagram" alt="Instagram icon"></a>
+    <a target="_blank" href="https://github.com/amstyle94/il-mio-sito-internet"><img width="27" src="il-mio-sito-internet/assets/img/gi.webp" title="github" alt="github icon"></a> <BR>
   
-  <a target="_blank" href="https://www.facebook.com/permalink.php/?story_fbid=111796483583291&id=109350463827893"><img width="30" src="assets/img/face.png"  title="facebook" alt="Facebook icon"></a>
-  <a target="_blank" href="https://www.instagram.com/"><img width="50" src="assets/img/ista.webp" title="Instagram" alt="Instagram icon"></a>
-  <a target="_blank" href="https://github.com/amstyle94/il-mio-sito-internet"><img width="27" src="assets/img/gi.webp" title="github" alt="github icon"></a> <BR>
+        Designed by:<br>
+       <img width="100" src="il-mio-sito-internet/assets/img/firmaam.png">   
+     
+    </footer>
 
-      Designed by<br>
-     <img width="100" src="assets/img/firmaam.png">   
-   
-  </footer>
 </body>
 
 </html>
