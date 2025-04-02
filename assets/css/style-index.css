@@ -167,5 +167,24 @@ footer .credits a img {
 footer .credits a img:hover {
 	opacity:0.6;
 }
-
+.imagegithub { 
+  width: 27px; 
+}
+.imagefirmafooter{
+  width:100px ;
+}
+.imageistagram{
+  width: 50px;
+}
+.imagefacebook{
+  width: 30px;
+}
+.imagelogo{
+  width:250px;
+  height:30px
+}
+.imagepersonale{
+  width: 320px;
+  height: 380px ;
+}
   
