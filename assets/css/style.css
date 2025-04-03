@@ -32,12 +32,11 @@ h3{
   font-family:'Times New Roman', Times, serif;
 }
 .daticontatti{
-  border-top: 2px solid rgb(218, 165,32); 
-	text-align:center;
+  border-top: 3px solid rgb(218, 165,32); 
+  text-align:center;
 	padding:30px 10px;
 	line-height: 1.6em;
 	font-size:0.8em;
-
 	color:rgb(218, 165, 32);}
 
 .testostoria{color:rgb(12, 29, 37);
@@ -217,4 +216,33 @@ footer .credits a img:hover {
 .imagepersonale{
   width: 320px;
   height: 380px ;
+}
+.invia{
+  background-color:rgb(12, 29, 37);
+  border-color: rgb(218, 165, 32);
+  color: rgb(218, 165, 32);
+  padding: 7px 18px;
+  text-decoration:underline;
+  margin: 8px 12px;
+  cursor:pointer;
+  font-weight: bolder;
+  
+}
+.reset{
+  background-color: rgb(12, 29, 37);
+  border-color:rgb(218, 165, 32);
+  color: rgb(218, 165, 32);
+  padding: 7px 18px;
+  text-decoration:underline;
+  margin: 10px 10px;
+  cursor:pointer;
+  font-weight: bolder;
+}
+.casella{
+  border-color: rgb(12,29, 37);
+  background-color:rgb(255, 255, 255);
+  color:rgb(12,29,37);
+  font-size: 18px;
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif;
 }
