@@ -226,6 +226,7 @@ footer .credits a img:hover {
   margin: 8px 12px;
   cursor:pointer;
   font-weight: bolder;
+  border-radius: 20px ;
   
 }
 .reset{
@@ -237,6 +238,7 @@ footer .credits a img:hover {
   margin: 10px 10px;
   cursor:pointer;
   font-weight: bolder;
+  border-radius: 20px;
 }
 .casella{
   border-color: rgb(12,29, 37);
@@ -245,4 +247,6 @@ footer .credits a img:hover {
   font-size: 18px;
   font-weight: bold;
   font-family:Arial, Helvetica, sans-serif;
+  border-radius: 7px;
+
 }
