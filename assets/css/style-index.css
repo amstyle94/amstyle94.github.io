@@ -7,15 +7,15 @@ body{
 }
 .cover{
   background-color: rgba(252, 252, 252, 0.966);
-  padding-block: 140px;
-  padding-inline: 50px;
-  background-image: url("../img/home1.jpg");
+  padding-block: 200px;
+  padding-inline: 130px;
+  background-image: url("../img/home2.jpg");
   background-repeat: no-repeat;
 background-size: cover;
 background-position:center center;
 }
 h1,h2,p {
-  color: rgb(218, 165, 32);
+  color: rgb(223, 61, 77);
   font-family: fantasy  ;
   size: 10px;
  -webkit-text-stroke-width: 1px;
